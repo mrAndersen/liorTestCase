@@ -14,5 +14,5 @@ include_once 'vendor/autoload.php';
 $parser = new Parser();
 
 //Will parse only first 10 images (for load reasons)
-$parser->parse(10);
+$parser->parse(50);
 

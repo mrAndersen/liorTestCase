@@ -106,7 +106,7 @@ class Parser
             $metaFile = sprintf(
                 $metaFile,
                 $nasaId,
-                ($item['data'][0]['keywords'] ? implode(', ', $item['data'][0]['keywords']) : ""),
+                (isset($item['data'][0]['keywords']) ? implode(', ', $item['data'][0]['keywords']) : ""),
                 $item['data'][0]['center'],
                 (new \DateTime($item['data'][0]['date_created']))->format('Y-m-d'),
                 $item['data'][0]['description']
