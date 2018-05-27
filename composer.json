@@ -1,0 +1,21 @@
+{
+  "name": "mrandersen/nasa_parser",
+  "description": "nasa_parser",
+  "authors": [
+    {
+      "name": "mrAndersen",
+      "email": "mrandersen2004@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Parser\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+
+  }
+}
